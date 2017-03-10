@@ -15,7 +15,6 @@ chromecastUrl = 'http://12.34.56.78:56789/apps/YouTube'
 # Port to run the app on
 flaskPort = 5001
 
-
 @ask.intent('PlayYoutube')
 def runQuery(Query):
 	
