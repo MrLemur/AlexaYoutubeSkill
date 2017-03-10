@@ -10,7 +10,7 @@ ask = Ask(app, '/')
 googApiKey = 'aaaabbbbcccc'
 
 # IP address and port of the TV. /apps/YouTube should stay the same
-chromecastUrl = 'http://12.34.56.78:56789/apps/YouTube' 
+chromecastUrl = 'http://12.34.56.78:56789/apps/YouTube'
 
 # Port to run the app on
 flaskPort = 5001
