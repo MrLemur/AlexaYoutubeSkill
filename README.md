@@ -29,7 +29,7 @@ youtube
 ```
 
 ## Custom Slot Type setup
-Name: *Query*
+Name: **Query**
 
 Values:
 ```
