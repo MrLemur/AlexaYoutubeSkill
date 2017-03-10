@@ -12,7 +12,8 @@ Simple Alexa skill to return first result of YouTube search query and play on a 
 youtube
 
 ## Intent setup
-```{
+```json
+{
   "intents": [
     {
       "intent": "PlayYoutube",
@@ -24,18 +25,23 @@ youtube
       ]
     }
 ]
-}```
+}
+```
 
-# Custom Slot Type setup
+## Custom Slot Type setup
 Name: Query
 Values:
-```bread
+```
+bread
 none left
 small big red
-red black blue ticket```
+red black blue ticket
+```
 
 ## Utterances
-```PlayYoutube {Query}
+```
+PlayYoutube {Query}
 PlayYoutube to play {Query}
-PlayYoutube to find {Query}```
+PlayYoutube to find {Query}
+```
 
